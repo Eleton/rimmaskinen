@@ -37,11 +37,25 @@ h1 {
   height: 36vh;
   border-radius: 50%;
   font-size: 24vh;
+  background-color: green;
+  border: 2px solid black;
 }
 
 #suggest {
   grid-row: 3;
-  background-color: rgba(90, 70, 80, 0.5)
+  background-color: rgba(90, 70, 80, 0.5);
+  padding: 2vh;
+}
+
+#suggestButtonContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#suggestions {
+  display: flex;
+  justify-content: center;
 }
 
 #helga {

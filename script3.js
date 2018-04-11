@@ -4,6 +4,7 @@ var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEv
 
 var synth = window.speechSynthesis;
 
+var microphone = document.querySelector("#listen button");
 var suggestionButton = document.querySelector("#suggest button");
 var suggestions = document.querySelector("#suggestions");
 
@@ -78,9 +79,11 @@ fetch("words.json")
   document.querySelector("#listen").onclick = () => {
     recognition.start();
     console.log("Lyssnar efter input!");
+    microphone.style.backgroundColor = "blue";
   }
 
   recognition.onresult = event => {
+    microphone.style.backgroundColor = "red";
     console.log("Nu fick jag något!")
     var last = event.results.length - 1;
     console.log(last);
@@ -92,6 +95,7 @@ fetch("words.json")
   }
 
   recognition.onspeechend = function() {
+    console.log("nu slutade jag här")
     recognition.stop();
   }
 
