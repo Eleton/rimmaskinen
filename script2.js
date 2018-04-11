@@ -4,6 +4,9 @@ var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEv
 
 var synth = window.speechSynthesis;
 
+var suggestionButton = document.querySelector("#suggest button");
+var suggestions = document.querySelector("#suggestions");
+
 fetch("words.json")
 .then(response => response.json())
 .then(words => {
@@ -91,5 +94,24 @@ fetch("words.json")
   recognition.onspeechend = function() {
     recognition.stop();
   }
-})
 
+  suggestionButton.onclick = () => {
+    suggestions.innerHTML = "";
+    var scrambled = words
+      .map(w => ({ word: w.word, ran: Math.random() }))
+      .sort((a, b) => a.ran > b.ran)
+      .slice(0, 10)
+      .map(w => w.word);
+    console.log(scrambled);
+
+    var list1 = document.createElement("ul");
+    var list2 = document.createElement("ul");
+    scrambled.forEach((w, i) => {
+      var word = document.createElement("li");
+      word.innerText = w;
+      i < 5 ? list1.append(word) : list2.append(word);
+    });
+    suggestions.append(list1);
+    suggestions.append(list2);
+  }
+})
