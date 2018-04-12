@@ -39,6 +39,7 @@ fetch("words.json")
       console.log(utterThis)
       utterThis.onend = function (event) {
         console.log('SpeechSynthesisUtterance.onend');
+        microphone.style.backgroundColor = "green";
       }
       utterThis.onerror = function (event) {
         console.error('SpeechSynthesisUtterance.onerror');
@@ -46,11 +47,14 @@ fetch("words.json")
       
       utterThis.voice = voice;
       utterThis.pitch = voice ? 2 : 1;
+      
       synth.speak(utterThis);
+
+
     }
   }
 
-  document.querySelector("#helga").onclick = () => {
+  /*document.querySelector("#helga").onclick = () => {
     var voices = synth.getVoices();
     var voice = voices.find(v => v.lang === "sv-SE");
 
@@ -74,7 +78,7 @@ fetch("words.json")
     two.voice = voice;
     two.pitch = 1.06;
     synth.speak(two);
-  }
+  }*/
 
   document.querySelector("#listen").onclick = () => {
     recognition.start();
@@ -90,14 +94,18 @@ fetch("words.json")
     console.log(event);
     var word = event.results[last][0].transcript;;
     console.log(word);
-    var rhyme = words.find(w => w.word === word).rhyme;
+    var rhymeWord = words.find(w => w.word === word);
+    if (!rhymeWord) speak("Jag har inte det ordet i mitt aningen begränsade vokabulär, tyvärr")
+    var rhyme = rhymeWord.rhyme;
+    console.log(rhyme);
     speak(rhyme);
   }
 
   recognition.onspeechend = function() {
-    console.log("nu slutade jag här")
     recognition.stop();
   }
+
+  synth.end = () => console.log("slut!")
 
   suggestionButton.onclick = () => {
     suggestions.innerHTML = "";
