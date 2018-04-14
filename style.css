@@ -1,0 +1,100 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+}
+
+.container {
+  height: inherit;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 20vh 40vh 40vh;
+}
+
+#title {
+  font-family: sans-serif;
+  text-align: center;
+  grid-row: 1;
+  margin-top: 4vh;
+}
+
+#title h1 {
+  margin-bottom: 0px;
+}
+
+#title p {
+  margin-top: 4px;
+}
+
+
+
+#listen {
+  grid-row: 2;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+#listen button {
+  width: 36vh;
+  height: 36vh;
+  border-radius: 50%;
+  font-size: 24vh;
+  background-color: green;
+  border: 2px solid black;
+}
+
+#suggest {
+  grid-row: 3;
+  padding: 2vh;
+}
+
+#suggestButtonContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+#suggestButtonContainer button {
+  font-size: 1.4em;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+}
+
+#suggestions {
+  display: flex;
+  justify-content: center;
+}
+
+#helga {
+  grid-row: 4;
+  background-color: rgba(80, 90, 70, 0.5)
+}
+
+div {
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
