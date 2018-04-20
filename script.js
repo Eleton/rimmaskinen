@@ -8,8 +8,6 @@ var microphone = document.querySelector("#listen button");
 var suggestionButton = document.querySelector("#suggest button");
 var suggestions = document.querySelector("#suggestions");
 
-var h1 = document.querySelector("h1")
-
 fetch("words.json")
 .then(response => response.json())
 .then(words => {
@@ -82,15 +80,13 @@ fetch("words.json")
     synth.speak(two);
   }*/
 
-  document.querySelector("#listen").onclick = () => {
+  microphone.onclick = () => {
     recognition.start();
-    h1.innerText = "lyssnar"
     console.log("Lyssnar efter input!");
     microphone.style.backgroundColor = "blue";
   }
 
   recognition.onresult = event => {
-    h1.innerText = "resultat"
     microphone.style.backgroundColor = "red";
     console.log("Nu fick jag något!")
     var last = event.results.length - 1;
