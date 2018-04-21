@@ -299,4 +299,116 @@
     "rhyme": "aktuell",
     "word": "snäll"
   }
+
+
+  ,{
+    "rhyme": "sudd",
+    "word": "ludd"
+  }
+  ,{
+    "rhyme": "krav",
+    "word": "stav"
+  }
+  ,{
+    "rhyme": "krut",
+    "word": "tittut"
+  }
+  ,{
+    "rhyme": "sköngsång",
+    "word": "kalsong"
+  }
+  ,{
+    "rhyme": "bastu",
+    "word": "farstu"
+  }
+  ,{
+    "rhyme": "villfarelse",
+    "word": "uppenbarelse"
+  }
+  ,{
+    "rhyme": "emot",
+    "word": "kanot"
+  }
+  ,{
+    "rhyme": "murar",
+    "word": "surar"
+  }
+  ,{
+    "rhyme": "svinen",
+    "word": "regimen"
+  }
+  ,{
+    "rhyme": "kränkbar",
+    "word": "svar"
+  }
+  ,{
+    "rhyme": "tak",
+    "word": "sak"
+  }
+  ,{
+    "rhyme": "precis",
+    "word": "flyktingkris"
+  }
+  ,{
+    "rhyme": "tåla",
+    "word": "anabola"
+  }
+
+
+
+
+
+  ,{
+    "rhyme": "människors lika värde",
+    "word": "färde"
+  }
+  ,{
+    "rhyme": "rimma",
+    "word": "rimma"
+  }
+  ,{
+    "rhyme": "skaft",
+    "word": "kvast"
+  }
+
+
+  ,{
+    "word": "sudd",
+    "rhyme": "ludd"
+  }
+  ,{
+    "word": "krav",
+    "rhyme": "stav"
+  }
+  ,{
+    "word": "krut",
+    "rhyme": "tittut"
+  }
+  ,{
+    "word": "skönsång",
+    "rhyme": "kalsong"
+  }
+  ,{
+    "word": "bastu",
+    "rhyme": "farstu"
+  }
+  ,{
+    "word": "villfarelse",
+    "rhyme": "uppenbarelse"
+  }
+  ,{
+    "word": "emot",
+    "rhyme": "kanot"
+  }
+  ,{
+    "word": "murar",
+    "rhyme": "surar"
+  }
+  ,{
+    "word": "svinen",
+    "rhyme": "regimen"
+  }
+
+
+
 ]

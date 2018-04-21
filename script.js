@@ -95,7 +95,7 @@ fetch("words.json")
     var word = event.results[last][0].transcript;;
     console.log(word);
     var rhymeWord = words.find(w => w.word === word);
-    if (!rhymeWord) speak("Jag har inte det ordet i mitt aningen begränsade vokabulär, tyvärr")
+    if (!rhymeWord) speak("Förlåt, vad sa du?")
     var rhyme = rhymeWord.rhyme;
     console.log(rhyme);
     speak(rhyme);
