@@ -64,8 +64,8 @@
     "rhyme": "klapp klapp"
   }
   ,{
-    "word": "Körberg",
-    "rhyme": "Åååååååå heeeeeeeelga naaaaaaaaaaaaaaatt. Ååååå heeeeeeelga stuuuuuund för väääääääääärldeeeeeeeen."
+    "word": "omstart",
+    "rhyme": "Åååååååå heeeeeeeelga naaaaaaaaaaaaaaatt. Ååååå heeeeeeelga stuuuuuund för väääääääääärldeeeeeeeen. Då guuuuuudaaa mänskaaaaaaaan till jooooooooordeeeeeeeeen steeeeeg neeeeeeeed."
   }
   ,{
     "word": "praktiskt",
@@ -128,7 +128,175 @@
     "rhyme": "mopp"
   }
   ,{
-    "word": "",
-    "rhyme": ""
+    "word": "ding",
+    "rhyme": "här glider kingen in"
+  }
+  ,{
+    "word": "försaka",
+    "rhyme": "kaka"
+  }
+  ,{
+    "word": "mål",
+    "rhyme": "bål"
+  }
+  ,{
+    "word": "näven",
+    "rhyme": "den spanska räven"
+  }
+  ,{
+    "word": "flundra",
+    "rhyme": "hundra"
+  }
+  ,{
+    "word": "våt",
+    "rhyme": "båt"
+  }
+  ,{
+    "word": "land",
+    "rhyme": "sand"
+  }
+  ,{
+    "word": "val",
+    "rhyme": "integral"
+  }
+  ,{
+    "word": "skuta",
+    "rhyme": "pruta"
+  }
+  ,{
+    "word": "borr",
+    "rhyme": "bildoktor"
+  }
+  ,{
+    "word": "gunga",
+    "rhyme": "sjunga"
+  }
+  ,{
+    "word": "resten",
+    "rhyme": "förresten"
+  }
+  ,{
+    "word": "skumpa",
+    "rhyme": "umpa-lumpa"
+  }
+  ,{
+    "word": "farväl",
+    "rhyme": "säl"
+  }
+  ,{
+    "word": "expedition",
+    "rhyme": "inkvisition"
+  }
+  ,{
+    "word": "stadsbor",
+    "rhyme": "ankor"
+  }
+  ,{
+    "word": "fattiglapp",
+    "rhyme": "100 papp"
+  }
+  ,{
+    "word": "tröst",
+    "rhyme": "bröst"
+  }
+  ,{
+    "word": "pruta",
+    "rhyme": "skjuta"
+  }
+  ,{
+    "word": "tro",
+    "rhyme": "Baloo"
+  }
+  ,{
+    "word": "skrivet",
+    "rhyme": "livet"
+  }
+  ,{
+    "word": "snubben",
+    "rhyme": "lilla gubben"
+  }
+  ,{
+    "word": "kalas",
+    "rhyme": "havrefras"
+  }
+  ,{
+    "word": "flax",
+    "rhyme": "snorlax"
+  }
+  ,{
+    "word": "familjeliv",
+    "rhyme": "youtube-arkiv"
+  }
+  ,{
+    "word": "ambition",
+    "rhyme": "miljon"
+  }
+  ,{
+    "word": "aktuell",
+    "rhyme": "snäll"
+  }
+
+
+
+
+  ,{
+    "rhyme": "flundra",
+    "word": "hundra"
+  }
+  ,{
+    "rhyme": "våt",
+    "word": "båt"
+  }
+  ,{
+    "rhyme": "land",
+    "word": "sand"
+  }
+  ,{
+    "rhyme": "val",
+    "word": "integral"
+  }
+  ,{
+    "rhyme": "borr",
+    "word": "bildoktor"
+  }
+  ,{
+    "rhyme": "gunga",
+    "word": "sjunga"
+  }
+  ,{
+    "rhyme": "resten",
+    "word": "förresten"
+  }
+  ,{
+    "rhyme": "farväl",
+    "word": "säl"
+  }
+  ,{
+    "rhyme": "expedition",
+    "word": "inkvisition"
+  }
+  ,{
+    "rhyme": "stadsbor",
+    "word": "ankor"
+  }
+  ,{
+    "rhyme": "tröst",
+    "word": "bröst"
+  }
+  ,{
+    "rhyme": "skrivet",
+    "word": "livet"
+  }
+  ,{
+    "rhyme": "kalas",
+    "word": "havrefras"
+  }
+  ,{
+    "rhyme": "ambition",
+    "word": "miljon"
+  }
+  ,{
+    "rhyme": "aktuell",
+    "word": "snäll"
   }
 ]

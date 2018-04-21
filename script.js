@@ -110,6 +110,7 @@ fetch("words.json")
   suggestionButton.onclick = () => {
     suggestions.innerHTML = "";
     var scrambled = words
+      .filter(w => w.word !== "omstart")
       .map(w => ({ word: w.word, ran: Math.random() }))
       .sort((a, b) => a.ran > b.ran)
       .slice(0, 10)
